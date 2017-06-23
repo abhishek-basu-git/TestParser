@@ -13,7 +13,12 @@ import org.xml.sax.SAXParseException;
 
 
 import java.lang.String;
- 
+
+/**
+ *  * @author abhishek
+ *  This class parses XMI files using SAXParser and gives the details of the different requested entities.
+ *
+ */ 
 public class XMIDocsParser {
 	
 	static String XMIFile = "./data/0000.xmi";	
